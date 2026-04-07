@@ -106,11 +106,11 @@ export default function LandingPage() {
         {
           id: "2",          name: "Distressed Denim Jacket",          price: "$180",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-asian-woman-autumn-clothes_23-2149071329.jpg"},
         {
-          id: "3",          name: "90s Graphic Band Tee",          price: "$65",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg"},
+          id: "3",          name: "90s Graphic Band Tee",          price: "$65",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=1"},
         {
           id: "4",          name: "Plaid Earth-Tone Flannel",          price: "$85",          imageSrc: "http://img.b2bpic.net/free-photo/fashionable-long-legs-brunette-model-long-black-cloak-posed-outdoor-winter-day-against-old-grunge-wall_627829-14032.jpg"},
         {
-          id: "5",          name: "Heavy Canvas Utility Bag",          price: "$45",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg"},
+          id: "5",          name: "Heavy Canvas Utility Bag",          price: "$45",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=2"},
         {
           id: "6",          name: "Faded Black Worker Jacket",          price: "$140",          imageSrc: "http://img.b2bpic.net/free-photo/mid-section-mechanic-with-wrench-tool-his-pocket_1170-1317.jpg"},
       ]}
