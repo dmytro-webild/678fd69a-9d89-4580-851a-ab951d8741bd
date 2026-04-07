@@ -29,12 +29,9 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "Shop",          id: "products"},
-        {
-          name: "Story",          id: "story"},
-        {
-          name: "Drop List",          id: "newsletter"},
+        { name: "Shop", id: "products" },
+        { name: "Story", id: "story" },
+        { name: "Drop List", id: "newsletter" },
       ]}
       brandName="Everthread Vintage"
     />
@@ -42,55 +39,30 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplit
-      background={{
-        variant: "sparkles-gradient"}}
+      background={{ variant: "sparkles-gradient" }}
       title="Timeless Pieces. Curated for You."
-      description="Handpicked vintage that never goes out of style."
-      buttons={[
-        {
-          text: "Shop the Drop",          href: "#products"},
-      ]}
-      imageSrc="http://img.b2bpic.net/free-photo/front-view-woman-posing-with-old-phone_23-2150908624.jpg"
-      imageAlt="Curated rack of vintage clothing"
+      description="Handpicked vintage that never goes out of style. Discover one-of-one gems from eras past, carefully restored for your modern wardrobe."
+      buttons={[{ text: "Shop the Drop", href: "#products" }]}
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png"
+      imageAlt="Everthread Vintage collection hero"
       mediaAnimation="blur-reveal"
-      avatars={[
-        {
-          src: "https://img.b2bpic.net/free-photo/young-man-wearing-black-hoodie-studio_23-2148281116.jpg",          alt: "Customer 1"},
-        {
-          src: "https://img.b2bpic.net/free-photo/stylish-woman-posing-with-hat_23-2148301736.jpg",          alt: "Customer 2"},
-        {
-          src: "https://img.b2bpic.net/free-photo/handsome-man-portrait_23-2148281116.jpg",          alt: "Customer 3"},
-        {
-          src: "https://img.b2bpic.net/free-photo/woman-smiling-outdoors_23-2148301736.jpg",          alt: "Customer 4"},
-        {
-          src: "https://img.b2bpic.net/free-photo/young-man-with-vintage-style_23-2148301736.jpg",          alt: "Customer 5"},
-      ]}
-      avatarText="Trusted by 1000+ fashion enthusiasts."
       marqueeItems={[
-        {
-          type: "text",          text: "One-of-one pieces"},
-        {
-          type: "text-icon",          text: "Sustainable",          icon: Leaf,
-        },
-        {
-          type: "text",          text: "Curated quality"},
-        {
-          type: "text-icon",          text: "Worldwide shipping",          icon: Globe,
-        },
-        {
-          type: "text",          text: "Verified authentic"},
+        { type: "text", text: "One-of-one pieces" },
+        { type: "text-icon", text: "Sustainable", icon: Leaf },
+        { type: "text", text: "Curated quality" },
+        { type: "text-icon", text: "Worldwide shipping", icon: Globe },
+        { type: "text", text: "Verified authentic" },
       ]}
     />
   </div>
 
   <div id="trust" data-section="trust">
       <SocialProofOne
-      textboxLayout="default"
+      textboxLayout="split-description"
+      title="Trusted by Fashion Enthusiasts"
+      description="We partner with eco-conscious creators to bring you the best in vintage streetwear."
+      names={["Vogue Vintage", "Urban Outfitters Archive", "Sustainable Threads", "Retro Revival", "Street Style Mag"]}
       useInvertedBackground={false}
-      names={[
-        "Curated vintage.",        "No fast fashion.",        "Every piece is one-of-one.",        "Sustainably sourced.",        "Trusted by 1000+ lovers"]}
-      title="Built on Values"
-      description="We are rethinking vintage."
     />
   </div>
 
@@ -101,86 +73,48 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
-        {
-          id: "1",          name: "Vintage Washed Carhartt Hoodie",          price: "$120",          imageSrc: "http://img.b2bpic.net/free-photo/view-hipster-male-man-looking-camera_197531-33424.jpg"},
-        {
-          id: "2",          name: "Distressed Denim Jacket",          price: "$180",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-asian-woman-autumn-clothes_23-2149071329.jpg"},
-        {
-          id: "3",          name: "90s Graphic Band Tee",          price: "$65",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=1"},
-        {
-          id: "4",          name: "Plaid Earth-Tone Flannel",          price: "$85",          imageSrc: "http://img.b2bpic.net/free-photo/fashionable-long-legs-brunette-model-long-black-cloak-posed-outdoor-winter-day-against-old-grunge-wall_627829-14032.jpg"},
-        {
-          id: "5",          name: "Heavy Canvas Utility Bag",          price: "$45",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=2"},
-        {
-          id: "6",          name: "Faded Black Worker Jacket",          price: "$140",          imageSrc: "http://img.b2bpic.net/free-photo/mid-section-mechanic-with-wrench-tool-his-pocket_1170-1317.jpg"},
+        { id: "1", name: "Vintage Washed Carhartt Hoodie", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
+        { id: "2", name: "Distressed Denim Jacket", price: "$180", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
+        { id: "3", name: "90s Graphic Band Tee", price: "$65", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
+        { id: "4", name: "Plaid Earth-Tone Flannel", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
       ]}
-      title="Featured Drop"
-      description="Limited pieces, hand-selected."
+      title="Featured Collection"
+      description="Limited drops. Once they're gone, they're gone forever."
     />
   </div>
 
   <div id="story" data-section="story">
       <TextAbout
+      useInvertedBackground={true}
+      title="Every piece tells a story of craftsmanship and character."
+      buttons={[{ text: "Read Our Brand Story", href: "#" }]}
+    />
+  </div>
+
+  <div id="newsletter" data-section="newsletter">
+      <ContactCenter
+      tag="Drop List"
+      title="Join the Circle"
+      description="Get notified before every new vintage collection drops. Members get early access."
+      background={{ variant: "gradient-bars" }}
       useInvertedBackground={false}
-      title="The Everthread Philosophy"
-      buttons={[
-        {
-          text: "Our Mission",          href: "#"},
-      ]}
     />
   </div>
 
   <div id="closing" data-section="closing">
       <TextAbout
       useInvertedBackground={false}
-      title="Don't miss the next drop."
-      buttons={[
-        {
-          text: "Shop Now",          href: "#products"},
-      ]}
-    />
-  </div>
-
-  <div id="newsletter" data-section="newsletter">
-      <ContactCenter
-      useInvertedBackground={false}
-      background={{
-        variant: "plain"}}
-      tag="Stay Connected"
-      title="Get Early Access to Every Drop"
-      description="Limited pieces. Once they’re gone, they’re gone."
-      inputPlaceholder="Enter your email"
-      buttonText="Join Now"
+      title="Ready to refine your style?"
+      buttons={[{ text: "Shop All Pieces", href: "#products" }]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBase
       columns={[
-        {
-          title: "Shop",          items: [
-            {
-              label: "All Drops",              href: "#products"},
-            {
-              label: "Best Sellers",              href: "#"},
-          ],
-        },
-        {
-          title: "Company",          items: [
-            {
-              label: "Story",              href: "#story"},
-            {
-              label: "About",              href: "#"},
-          ],
-        },
-        {
-          title: "Support",          items: [
-            {
-              label: "Contact",              href: "#newsletter"},
-            {
-              label: "Shipping",              href: "#"},
-          ],
-        },
+        { title: "Shop", items: [{ label: "All Drops", href: "#products" }, { label: "Best Sellers", href: "#" }] },
+        { title: "Company", items: [{ label: "Our Story", href: "#story" }, { label: "Sustainability", href: "#" }] },
+        { title: "Support", items: [{ label: "Contact", href: "#newsletter" }, { label: "Shipping", href: "#" }] },
       ]}
       logoText="Everthread Vintage"
     />
