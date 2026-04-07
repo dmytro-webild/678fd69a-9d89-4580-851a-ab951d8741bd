@@ -30,17 +30,11 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Shop",
-          id: "products",
-        },
+          name: "Shop",          id: "products"},
         {
-          name: "Story",
-          id: "story",
-        },
+          name: "Story",          id: "story"},
         {
-          name: "Drop List",
-          id: "newsletter",
-        },
+          name: "Drop List",          id: "newsletter"},
       ]}
       brandName="Everthread Vintage"
     />
@@ -49,65 +43,42 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplit
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       title="Timeless Pieces. Curated for You."
       description="Handpicked vintage that never goes out of style."
       buttons={[
         {
-          text: "Shop the Drop",
-          href: "#products",
-        },
+          text: "Shop the Drop",          href: "#products"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/front-view-woman-posing-with-old-phone_23-2150908624.jpg"
       imageAlt="Curated rack of vintage clothing"
       mediaAnimation="blur-reveal"
       avatars={[
         {
-          src: "https://img.b2bpic.net/free-photo/young-man-wearing-black-hoodie-studio_23-2148281116.jpg",
-          alt: "Customer 1",
-        },
+          src: "https://img.b2bpic.net/free-photo/young-man-wearing-black-hoodie-studio_23-2148281116.jpg",          alt: "Customer 1"},
         {
-          src: "https://img.b2bpic.net/free-photo/stylish-woman-posing-with-hat_23-2148301736.jpg",
-          alt: "Customer 2",
-        },
+          src: "https://img.b2bpic.net/free-photo/stylish-woman-posing-with-hat_23-2148301736.jpg",          alt: "Customer 2"},
         {
-          src: "https://img.b2bpic.net/free-photo/handsome-man-portrait_23-2148281116.jpg",
-          alt: "Customer 3",
-        },
+          src: "https://img.b2bpic.net/free-photo/handsome-man-portrait_23-2148281116.jpg",          alt: "Customer 3"},
         {
-          src: "https://img.b2bpic.net/free-photo/woman-smiling-outdoors_23-2148301736.jpg",
-          alt: "Customer 4",
-        },
+          src: "https://img.b2bpic.net/free-photo/woman-smiling-outdoors_23-2148301736.jpg",          alt: "Customer 4"},
         {
-          src: "https://img.b2bpic.net/free-photo/young-man-with-vintage-style_23-2148301736.jpg",
-          alt: "Customer 5",
-        },
+          src: "https://img.b2bpic.net/free-photo/young-man-with-vintage-style_23-2148301736.jpg",          alt: "Customer 5"},
       ]}
       avatarText="Trusted by 1000+ fashion enthusiasts."
       marqueeItems={[
         {
-          type: "text",
-          text: "One-of-one pieces",
+          type: "text",          text: "One-of-one pieces"},
+        {
+          type: "text-icon",          text: "Sustainable",          icon: Leaf,
         },
         {
-          type: "text-icon",
-          text: "Sustainable",
-          icon: Leaf,
+          type: "text",          text: "Curated quality"},
+        {
+          type: "text-icon",          text: "Worldwide shipping",          icon: Globe,
         },
         {
-          type: "text",
-          text: "Curated quality",
-        },
-        {
-          type: "text-icon",
-          text: "Worldwide shipping",
-          icon: Globe,
-        },
-        {
-          type: "text",
-          text: "Verified authentic",
-        },
+          type: "text",          text: "Verified authentic"},
       ]}
     />
   </div>
@@ -117,12 +88,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Curated vintage.",
-        "No fast fashion.",
-        "Every piece is one-of-one.",
-        "Sustainably sourced.",
-        "Trusted by 1000+ lovers",
-      ]}
+        "Curated vintage.",        "No fast fashion.",        "Every piece is one-of-one.",        "Sustainably sourced.",        "Trusted by 1000+ lovers"]}
       title="Built on Values"
       description="We are rethinking vintage."
     />
@@ -136,41 +102,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "1",
-          name: "Vintage Washed Carhartt Hoodie",
-          price: "$120",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-hipster-male-man-looking-camera_197531-33424.jpg",
-        },
+          id: "1",          name: "Vintage Washed Carhartt Hoodie",          price: "$120",          imageSrc: "http://img.b2bpic.net/free-photo/view-hipster-male-man-looking-camera_197531-33424.jpg"},
         {
-          id: "2",
-          name: "Distressed Denim Jacket",
-          price: "$180",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-asian-woman-autumn-clothes_23-2149071329.jpg",
-        },
+          id: "2",          name: "Distressed Denim Jacket",          price: "$180",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-asian-woman-autumn-clothes_23-2149071329.jpg"},
         {
-          id: "3",
-          name: "90s Graphic Band Tee",
-          price: "$65",
-          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=1",
-        },
+          id: "3",          name: "90s Graphic Band Tee",          price: "$65",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg"},
         {
-          id: "4",
-          name: "Plaid Earth-Tone Flannel",
-          price: "$85",
-          imageSrc: "http://img.b2bpic.net/free-photo/fashionable-long-legs-brunette-model-long-black-cloak-posed-outdoor-winter-day-against-old-grunge-wall_627829-14032.jpg",
-        },
+          id: "4",          name: "Plaid Earth-Tone Flannel",          price: "$85",          imageSrc: "http://img.b2bpic.net/free-photo/fashionable-long-legs-brunette-model-long-black-cloak-posed-outdoor-winter-day-against-old-grunge-wall_627829-14032.jpg"},
         {
-          id: "5",
-          name: "Heavy Canvas Utility Bag",
-          price: "$45",
-          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=2",
-        },
+          id: "5",          name: "Heavy Canvas Utility Bag",          price: "$45",          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg"},
         {
-          id: "6",
-          name: "Faded Black Worker Jacket",
-          price: "$140",
-          imageSrc: "http://img.b2bpic.net/free-photo/mid-section-mechanic-with-wrench-tool-his-pocket_1170-1317.jpg",
-        },
+          id: "6",          name: "Faded Black Worker Jacket",          price: "$140",          imageSrc: "http://img.b2bpic.net/free-photo/mid-section-mechanic-with-wrench-tool-his-pocket_1170-1317.jpg"},
       ]}
       title="Featured Drop"
       description="Limited pieces, hand-selected."
@@ -183,11 +125,8 @@ export default function LandingPage() {
       title="The Everthread Philosophy"
       buttons={[
         {
-          text: "Our Mission",
-          href: "#",
-        },
+          text: "Our Mission",          href: "#"},
       ]}
-      description="Everthread Vintage was built on the idea that great style doesn’t expire. We source timeless, high-quality vintage pieces so you can stand out without following trends. Every item has a history; we're just helping it write the next chapter."
     />
   </div>
 
@@ -197,9 +136,7 @@ export default function LandingPage() {
       title="Don't miss the next drop."
       buttons={[
         {
-          text: "Shop Now",
-          href: "#products",
-        },
+          text: "Shop Now",          href: "#products"},
       ]}
     />
   </div>
@@ -208,8 +145,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Stay Connected"
       title="Get Early Access to Every Drop"
       description="Limited pieces. Once they’re gone, they’re gone."
@@ -222,42 +158,27 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Shop",
-          items: [
+          title: "Shop",          items: [
             {
-              label: "All Drops",
-              href: "#products",
-            },
+              label: "All Drops",              href: "#products"},
             {
-              label: "Best Sellers",
-              href: "#",
-            },
+              label: "Best Sellers",              href: "#"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "Story",
-              href: "#story",
-            },
+              label: "Story",              href: "#story"},
             {
-              label: "About",
-              href: "#",
-            },
+              label: "About",              href: "#"},
           ],
         },
         {
-          title: "Support",
-          items: [
+          title: "Support",          items: [
             {
-              label: "Contact",
-              href: "#newsletter",
-            },
+              label: "Contact",              href: "#newsletter"},
             {
-              label: "Shipping",
-              href: "#",
-            },
+              label: "Shipping",              href: "#"},
           ],
         },
       ]}
