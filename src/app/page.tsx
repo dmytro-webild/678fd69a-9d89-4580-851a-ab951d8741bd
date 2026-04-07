@@ -88,6 +88,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="Every piece tells a story of craftsmanship and character."
       buttons={[{ text: "Read Our Brand Story", href: "#" }]}
+      className="bg-[#2a2a2a] text-[#fcfaf7]"
     />
   </div>
 
@@ -97,7 +98,8 @@ export default function LandingPage() {
       title="Join the Circle"
       description="Get notified before every new vintage collection drops. Members get early access."
       background={{ variant: "gradient-bars" }}
-      useInvertedBackground={false}
+      useInvertedBackground={true}
+      className="bg-[#f4f0e9]"
     />
   </div>
 
@@ -106,6 +108,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Ready to refine your style?"
       buttons={[{ text: "Shop All Pieces", href: "#products" }]}
+      className="bg-[#d1c7b7] text-[#1a1a1a]"
     />
   </div>
 
@@ -117,6 +120,7 @@ export default function LandingPage() {
         { title: "Support", items: [{ label: "Contact", href: "#newsletter" }, { label: "Shipping", href: "#" }] },
       ]}
       logoText="Everthread Vintage"
+      className="bg-[#1a1a1a] text-[#fcfaf7]"
     />
   </div>
       </ReactLenis>
