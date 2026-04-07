@@ -151,7 +151,7 @@ export default function LandingPage() {
           id: "3",
           name: "90s Graphic Band Tee",
           price: "$65",
-          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=1",
         },
         {
           id: "4",
@@ -163,7 +163,7 @@ export default function LandingPage() {
           id: "5",
           name: "Heavy Canvas Utility Bag",
           price: "$45",
-          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/spring-wardrobe-switch-still-life_23-2150176758.jpg?_wi=2",
         },
         {
           id: "6",
