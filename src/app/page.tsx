@@ -43,7 +43,7 @@ export default function LandingPage() {
       title="Timeless Pieces. Curated for You."
       description="Handpicked vintage that never goes out of style. Discover one-of-one gems from eras past, carefully restored for your modern wardrobe."
       buttons={[{ text: "Shop the Drop", href: "#products" }]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png?_wi=1"
       imageAlt="Everthread Vintage collection hero"
       mediaAnimation="blur-reveal"
       marqueeItems={[
@@ -73,10 +73,10 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
-        { id: "1", name: "Vintage Washed Carhartt Hoodie", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
-        { id: "2", name: "Distressed Denim Jacket", price: "$180", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
-        { id: "3", name: "90s Graphic Band Tee", price: "$65", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
-        { id: "4", name: "Plaid Earth-Tone Flannel", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png" },
+        { id: "1", name: "Vintage Washed Carhartt Hoodie", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png?_wi=2" },
+        { id: "2", name: "Distressed Denim Jacket", price: "$180", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png?_wi=3" },
+        { id: "3", name: "90s Graphic Band Tee", price: "$65", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png?_wi=4" },
+        { id: "4", name: "Plaid Earth-Tone Flannel", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png?_wi=5" },
       ]}
       title="Featured Collection"
       description="Limited drops. Once they're gone, they're gone forever."
