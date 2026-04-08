@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Gem, Sparkles, Star } from "lucide-react";
+import { Star, Sparkles, Gem } from "lucide-react";
 
 export default function SubscriptionPlansPage() {
   return (
@@ -39,6 +39,7 @@ export default function SubscriptionPlansPage() {
                 description="Choose the plan that fits your style. Unlock exclusive drops, early access, and curated vintage selections."
                 animationType="depth-3d"
                 textboxLayout="split-description"
+                useInvertedBackground={false}
                 plans={[
                     {
                         id: "essential",                        badge: "Starter",                        badgeIcon: Star,

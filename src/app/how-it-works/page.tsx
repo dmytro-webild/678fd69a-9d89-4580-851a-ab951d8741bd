@@ -5,7 +5,6 @@ import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TimelinePhoneView from '@/components/cardStack/layouts/timelines/TimelinePhoneView';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Zap, Package, ShoppingBag } from "lucide-react";
 
 export default function HowItWorksPage() {
   return (
@@ -38,6 +37,7 @@ export default function HowItWorksPage() {
                 title="The Vintage Curation Process"
                 description="From sourcing rare finds to restoring quality, here is how we bring you the ultimate vintage experience."
                 textboxLayout="split-description"
+                animationType="opacity"
                 items={[
                     {
                         trigger: "1. Sourcing",                        content: "Our team travels globally to handpick one-of-a-kind vintage items, focusing on high-quality fabrics and timeless streetwear silhouettes.",                        imageOne: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png?_wi=2"

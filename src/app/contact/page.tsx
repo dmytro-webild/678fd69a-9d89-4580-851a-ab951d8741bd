@@ -7,7 +7,18 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 
 export default function ContactPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider
+      defaultButtonVariant="text-stagger"
+      defaultTextAnimation="entrance-slide"
+      borderRadius="rounded"
+      contentWidth="medium"
+      sizing="medium"
+      background="circleGradient"
+      cardStyle="glass-elevated"
+      primaryButtonStyle="gradient"
+      secondaryButtonStyle="glass"
+      headingFontWeight="normal"
+    >
       <NavbarLayoutFloatingOverlay
         navItems={[
           { name: "Shop", id: "/products" },
