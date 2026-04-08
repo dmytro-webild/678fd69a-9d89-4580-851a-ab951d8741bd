@@ -7,7 +7,18 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 
 export default function FaqPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider
+      defaultButtonVariant="text-stagger"
+      defaultTextAnimation="entrance-slide"
+      borderRadius="rounded"
+      contentWidth="medium"
+      sizing="medium"
+      background="circleGradient"
+      cardStyle="glass-elevated"
+      primaryButtonStyle="gradient"
+      secondaryButtonStyle="glass"
+      headingFontWeight="normal"
+    >
       <NavbarLayoutFloatingOverlay
         navItems={[
           { name: "Shop", id: "/products" },
@@ -23,6 +34,7 @@ export default function FaqPage() {
         description="Everything you need to know about our curation and shipping process."
         faqsAnimation="slide-up"
         textboxLayout="default"
+        useInvertedBackground={false}
         faqs={[
           { id: "1", title: "How do you source your vintage?", content: "We source pieces through curated collections and verified archives to ensure quality and authenticity." },
           { id: "2", title: "What is your shipping policy?", content: "We offer worldwide shipping with tracking information provided for every order." }
