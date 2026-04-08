@@ -29,9 +29,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        { name: "Shop", id: "products" },
-        { name: "Story", id: "story" },
-        { name: "Drop List", id: "newsletter" },
+        { name: "Shop", id: "/products" },
+        { name: "Story", id: "/story" },
+        { name: "FAQ", id: "/faq" },
+        { name: "Contact", id: "/contact" },
+        { name: "Drop List", id: "/newsletter" },
       ]}
       brandName="Everthread Vintage"
     />
@@ -42,7 +44,7 @@ export default function LandingPage() {
       background={{ variant: "sparkles-gradient" }}
       title="Timeless Pieces. Curated for You."
       description="Handpicked vintage that never goes out of style. Discover one-of-one gems from eras past, carefully restored for your modern wardrobe."
-      buttons={[{ text: "Shop the Drop", href: "#products" }]}
+      buttons={[{ text: "Shop the Drop", href: "/products" }]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C374B1YD0AKUmGNpzIynXP84Ag/uploaded-1775602334039-leqsugjz.png?_wi=1"
       imageAlt="Everthread Vintage collection hero"
       mediaAnimation="blur-reveal"
@@ -107,7 +109,7 @@ export default function LandingPage() {
       <TextAbout
       useInvertedBackground={false}
       title="Ready to refine your style?"
-      buttons={[{ text: "Shop All Pieces", href: "#products" }]}
+      buttons={[{ text: "Shop All Pieces", href: "/products" }]}
       className="bg-[#d1c7b7] text-[#1a1a1a]"
     />
   </div>
@@ -115,9 +117,9 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterBase
       columns={[
-        { title: "Shop", items: [{ label: "All Drops", href: "#products" }, { label: "Best Sellers", href: "#" }] },
-        { title: "Company", items: [{ label: "Our Story", href: "#story" }, { label: "Sustainability", href: "#" }] },
-        { title: "Support", items: [{ label: "Contact", href: "#newsletter" }, { label: "Shipping", href: "#" }] },
+        { title: "Shop", items: [{ label: "All Drops", href: "/products" }, { label: "Best Sellers", href: "#" }] },
+        { title: "Company", items: [{ label: "Our Story", href: "/story" }, { label: "Sustainability", href: "#" }] },
+        { title: "Support", items: [{ label: "Contact", href: "/contact" }, { label: "FAQ", href: "/faq" }, { label: "Shipping", href: "#" }] },
       ]}
       logoText="Everthread Vintage"
       className="bg-[#1a1a1a] text-[#fcfaf7]"
